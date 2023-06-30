@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="icon" href="img/favicon.ico" type="image/x-icon"> -->
+  <link rel="stylesheet" href="./css/style.min.css?_v=20230630194440">
+  <title>Bridge — Transfers</title>
+</head>
+
+<body>    
+  
+  <div class="mobile-menu">    
+	<div class="mobile-menu__header">
+		<a class="mobile-menu__logo" href="">
+			<img src="img/debridges-logo_dark.svg" alt="">
+		</a>
+		<button class="mobile-menu__close-btn"></button>
+	</div>			
+	<nav class="mobile-menu__menu main-menu">
+		<ul>
+			<li class="main-menu__item active">
+				<a class="main-menu__item-link" href="">Transfers</a>
+			</li>
+			<li class="main-menu__item">
+				<a class="main-menu__item-link" href="">Bridges</a>
+			</li>
+			<li class="main-menu__item">
+				<a class="main-menu__item-link" href="">
+					<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M22.0002 11.4809V13.541C22.0002 14.091 21.5602 14.5409 21.0002 14.5609H19.0402C17.9602 14.5609 16.9702 13.7709 16.8802 12.6909C16.8202 12.0609 17.0602 11.4709 17.4802 11.0609C17.8502 10.6809 18.3602 10.4609 18.9202 10.4609H21.0002C21.5602 10.4809 22.0002 10.9309 22.0002 11.4809Z" stroke="#142438" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M2 11.0078V9.00781C2 6.28781 3.64 4.38781 6.19 4.06781C6.45 4.02781 6.72 4.00781 7 4.00781H16C16.26 4.00781 16.51 4.0178 16.75 4.0578C19.33 4.3578 21 6.26781 21 9.00781V10.4578H18.92C18.36 10.4578 17.85 10.6778 17.48 11.0578C17.06 11.4678 16.82 12.0578 16.88 12.6878C16.97 13.7678 17.96 14.5578 19.04 14.5578H21V16.0078C21 19.0078 19 21.0078 16 21.0078H13.5" stroke="#142438" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M3.80644 17.8084H5.73769V22.3084C5.73769 23.3584 6.30644 23.5709 7.00019 22.7834L11.7314 17.4084C12.3127 16.7521 12.0689 16.2084 11.1877 16.2084H9.25644V11.7084C9.25644 10.6584 8.68769 10.4459 7.99394 11.2334L3.26269 16.6084C2.68769 17.2709 2.93144 17.8084 3.80644 17.8084Z" stroke="#142438" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>							
+					Gas station
+				</a>
+			</li>
+			<li class="main-menu__item main-menu__item_soon main-menu__item_disabled">
+				<a class="main-menu__item-link">Networks</a>
+			</li>
+			<li class="main-menu__item main-menu__item_new main-menu__item_disabled">
+				<a class="main-menu__item-link">Reports</a>
+			</li>
+		</ul>
+	</nav>	
+	<button class="mobile-menu__cta btn btn_primary">Connect wallet</button>
+</div>
+
+  <div class="container">
+    
+    <header class="header header_inner">
+	<div class="header__content">
+		<div class="header__content-left">
+			<button class="header__menu-button"></button>
+			<a href="">
+				
+						
+				
+				
+					<img class="header__logo" src="img/debridges-logo_dark.svg" width="137" height="24" alt="">
+				
+
+			</a>
+		</div>		
+		<nav class="header__menu main-menu">
+			<ul>
+				<li class="main-menu__item">
+					<a class="main-menu__item-link" href="">Transfers</a>
+				</li>
+				<li class="main-menu__item">
+					<a class="main-menu__item-link" href="">Bridges</a>
+				</li>
+				<li class="main-menu__item">
+					<a class="main-menu__item-link" href="">
+						<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M22.0002 11.4809V13.541C22.0002 14.091 21.5602 14.5409 21.0002 14.5609H19.0402C17.9602 14.5609 16.9702 13.7709 16.8802 12.6909C16.8202 12.0609 17.0602 11.4709 17.4802 11.0609C17.8502 10.6809 18.3602 10.4609 18.9202 10.4609H21.0002C21.5602 10.4809 22.0002 10.9309 22.0002 11.4809Z" stroke="#142438" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M2 11.0078V9.00781C2 6.28781 3.64 4.38781 6.19 4.06781C6.45 4.02781 6.72 4.00781 7 4.00781H16C16.26 4.00781 16.51 4.0178 16.75 4.0578C19.33 4.3578 21 6.26781 21 9.00781V10.4578H18.92C18.36 10.4578 17.85 10.6778 17.48 11.0578C17.06 11.4678 16.82 12.0578 16.88 12.6878C16.97 13.7678 17.96 14.5578 19.04 14.5578H21V16.0078C21 19.0078 19 21.0078 16 21.0078H13.5" stroke="#142438" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M3.80644 17.8084H5.73769V22.3084C5.73769 23.3584 6.30644 23.5709 7.00019 22.7834L11.7314 17.4084C12.3127 16.7521 12.0689 16.2084 11.1877 16.2084H9.25644V11.7084C9.25644 10.6584 8.68769 10.4459 7.99394 11.2334L3.26269 16.6084C2.68769 17.2709 2.93144 17.8084 3.80644 17.8084Z" stroke="#142438" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>							
+						Gas station
+					</a>
+				</li>
+				<li class="main-menu__item main-menu__item_soon main-menu__item_disabled">
+					<a class="main-menu__item-link">Networks</a>
+				</li>
+				<li class="main-menu__item main-menu__item_new main-menu__item_disabled">
+					<a class="main-menu__item-link">Reports</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<button class="header__cta btn btn_middle connect-wallet-btn">Connect wallet</button>
+		<!-- <a class="wallet-info-button">
+			<div class="wallet-info-button__logo">
+				<picture><source srcset="img/metamask-logo.webp" type="image/webp"><img class="wallet-info-button__main-logo" src="img/metamask-logo.png" alt=""></picture>
+				<picture><source srcset="img/tokens-logos/network.webp" type="image/webp"><img class="wallet-info-button__network-logo" src="img/tokens-logos/network.png" alt=""></picture>
+			</div>
+			<div class="wallet-info-button__wallet-num">
+				<div>
+					<span class="wallet-info-button__num">0x07A0...B57F</span>					
+				</div>
+				<img src="img/wallet-icon_dark.svg" alt="">
+			</div>
+		</a> -->
+	</div>      	
+</header> 
+
+    <main class="main">       
+      <section class="page-container">
+        <div class="wrapper">
+          <div class="transfers-wrapper">
+            
+            <div class="history">
+
+              <div class="transfers__tabs">
+	<a href="../transfers-form.html" class="transfers__tab ">
+		<span>
+			<svg width="20" height="20" viewBox="0 0 20 20" fill="#292D32" xmlns="http://www.w3.org/2000/svg">
+				<path d="M12.9167 13.1263C12.7667 13.1263 12.6 13.118 12.4417 13.1096C12.1333 13.093 11.8833 12.843 11.8583 12.5346C11.675 10.2096 9.78333 8.32629 7.46666 8.14296C7.15833 8.11796 6.90832 7.86798 6.89166 7.55964C6.88332 7.40131 6.875 7.24297 6.875 7.08464C6.875 3.7513 9.58333 1.04297 12.9167 1.04297C16.25 1.04297 18.9583 3.7513 18.9583 7.08464C18.9583 10.418 16.25 13.1263 12.9167 13.1263ZM8.125 6.96796C10.6083 7.40129 12.6 9.39297 13.0333 11.8763C15.625 11.8096 17.7083 9.69297 17.7083 7.08464C17.7083 4.44297 15.5583 2.29297 12.9167 2.29297C10.3167 2.29297 8.19167 4.37629 8.125 6.96796Z"/>
+				<path d="M7.08268 18.9583C3.74935 18.9583 1.04102 16.25 1.04102 12.9167C1.04102 9.58333 3.74935 6.875 7.08268 6.875C7.23268 6.875 7.39936 6.88332 7.55769 6.89166C10.4994 7.12499 12.8827 9.50834 13.1077 12.4333C13.116 12.6 13.1243 12.7583 13.1243 12.9167C13.1243 16.25 10.416 18.9583 7.08268 18.9583ZM7.08268 8.125C4.44102 8.125 2.29102 10.275 2.29102 12.9167C2.29102 15.5583 4.44102 17.7083 7.08268 17.7083C9.72435 17.7083 11.8743 15.5583 11.8743 12.9167C11.8743 12.7833 11.866 12.65 11.8577 12.525C11.6744 10.2167 9.79101 8.32499 7.46601 8.14166C7.34934 8.13332 7.21602 8.125 7.08268 8.125Z"/>
+				<path d="M2.49935 6.11797C2.30768 6.11797 2.12434 6.08463 1.941 6.00963C1.391 5.78463 1.04102 5.2513 1.04102 4.65963V2.5013C1.04102 1.7013 1.69935 1.04297 2.49935 1.04297H4.65768C5.24935 1.04297 5.77434 1.39296 6.00768 1.94296C6.23268 2.49296 6.10767 3.11796 5.691 3.53463L3.53267 5.69296C3.24934 5.96796 2.88268 6.11797 2.49935 6.11797ZM2.49935 2.29297C2.38268 2.29297 2.29102 2.38464 2.29102 2.5013V4.65963C2.29102 4.78463 2.37434 4.83464 2.41601 4.85131C2.46601 4.86797 2.55769 4.89296 2.64103 4.80963L4.79936 2.6513C4.88269 2.56796 4.86601 2.47631 4.84101 2.42631C4.81601 2.37631 4.766 2.30131 4.64934 2.30131H2.49935V2.29297Z"/>
+				<path d="M17.4997 18.96H15.3414C14.7497 18.96 14.2247 18.61 13.9914 18.06C13.7664 17.51 13.8914 16.885 14.308 16.4683L16.4664 14.31C16.883 13.8933 17.508 13.7683 18.058 13.9933C18.608 14.2183 18.958 14.7516 18.958 15.3433V17.5016C18.958 18.3016 18.2997 18.96 17.4997 18.96ZM17.4913 15.135C17.4497 15.135 17.3997 15.1516 17.3497 15.2016L15.1914 17.36C15.108 17.4433 15.1247 17.535 15.1497 17.585C15.1747 17.635 15.2247 17.71 15.3414 17.71H17.4997C17.6164 17.71 17.708 17.6183 17.708 17.5016V15.3433C17.708 15.2183 17.6247 15.1683 17.583 15.1516C17.558 15.1433 17.5247 15.135 17.4913 15.135Z"/>
+			</svg>
+			Transfer
+		</span>
+	</a>
+	<a href="../transfers-history.html" class="transfers__tab active">
+		<span>
+			<svg width="20" height="20" viewBox="0 0 20 20" fill="#292D32" xmlns="http://www.w3.org/2000/svg">
+				<path d="M9.99935 18.9596C5.05768 18.9596 1.04102 14.943 1.04102 10.0013C1.04102 5.05964 5.05768 1.04297 9.99935 1.04297C14.941 1.04297 18.9577 5.05964 18.9577 10.0013C18.9577 14.943 14.941 18.9596 9.99935 18.9596ZM9.99935 2.29297C5.74935 2.29297 2.29102 5.7513 2.29102 10.0013C2.29102 14.2513 5.74935 17.7096 9.99935 17.7096C14.2494 17.7096 17.7077 14.2513 17.7077 10.0013C17.7077 5.7513 14.2494 2.29297 9.99935 2.29297Z"/>
+				<path d="M13.0909 13.2745C12.9826 13.2745 12.8742 13.2495 12.7742 13.1828L10.1909 11.6411C9.54922 11.2578 9.07422 10.4161 9.07422 9.67448V6.25781C9.07422 5.91615 9.35755 5.63281 9.69922 5.63281C10.0409 5.63281 10.3242 5.91615 10.3242 6.25781V9.67448C10.3242 9.97448 10.5742 10.4161 10.8326 10.5661L13.4159 12.1078C13.7159 12.2828 13.8076 12.6661 13.6326 12.9661C13.5076 13.1661 13.2992 13.2745 13.0909 13.2745Z"/>
+			</svg>					
+			History
+		</span>
+	</a>
+	<a href="../transfers-faq.html" class="transfers__tab ">
+		<span>
+			<svg width="20" height="20" viewBox="0 0 20 20" fill="#292D32" xmlns="http://www.w3.org/2000/svg">
+				<path d="M12.9167 13.1263C12.7667 13.1263 12.6 13.118 12.4417 13.1096C12.1333 13.093 11.8833 12.843 11.8583 12.5346C11.675 10.2096 9.78333 8.32629 7.46666 8.14296C7.15833 8.11796 6.90832 7.86798 6.89166 7.55964C6.88332 7.40131 6.875 7.24297 6.875 7.08464C6.875 3.7513 9.58333 1.04297 12.9167 1.04297C16.25 1.04297 18.9583 3.7513 18.9583 7.08464C18.9583 10.418 16.25 13.1263 12.9167 13.1263ZM8.125 6.96796C10.6083 7.40129 12.6 9.39297 13.0333 11.8763C15.625 11.8096 17.7083 9.69297 17.7083 7.08464C17.7083 4.44297 15.5583 2.29297 12.9167 2.29297C10.3167 2.29297 8.19167 4.37629 8.125 6.96796Z"/>
+				<path d="M7.08268 18.9583C3.74935 18.9583 1.04102 16.25 1.04102 12.9167C1.04102 9.58333 3.74935 6.875 7.08268 6.875C7.23268 6.875 7.39936 6.88332 7.55769 6.89166C10.4994 7.12499 12.8827 9.50834 13.1077 12.4333C13.116 12.6 13.1243 12.7583 13.1243 12.9167C13.1243 16.25 10.416 18.9583 7.08268 18.9583ZM7.08268 8.125C4.44102 8.125 2.29102 10.275 2.29102 12.9167C2.29102 15.5583 4.44102 17.7083 7.08268 17.7083C9.72435 17.7083 11.8743 15.5583 11.8743 12.9167C11.8743 12.7833 11.866 12.65 11.8577 12.525C11.6744 10.2167 9.79101 8.32499 7.46601 8.14166C7.34934 8.13332 7.21602 8.125 7.08268 8.125Z"/>
+				<path d="M2.49935 6.11797C2.30768 6.11797 2.12434 6.08463 1.941 6.00963C1.391 5.78463 1.04102 5.2513 1.04102 4.65963V2.5013C1.04102 1.7013 1.69935 1.04297 2.49935 1.04297H4.65768C5.24935 1.04297 5.77434 1.39296 6.00768 1.94296C6.23268 2.49296 6.10767 3.11796 5.691 3.53463L3.53267 5.69296C3.24934 5.96796 2.88268 6.11797 2.49935 6.11797ZM2.49935 2.29297C2.38268 2.29297 2.29102 2.38464 2.29102 2.5013V4.65963C2.29102 4.78463 2.37434 4.83464 2.41601 4.85131C2.46601 4.86797 2.55769 4.89296 2.64103 4.80963L4.79936 2.6513C4.88269 2.56796 4.86601 2.47631 4.84101 2.42631C4.81601 2.37631 4.766 2.30131 4.64934 2.30131H2.49935V2.29297Z"/>
+				<path d="M17.4997 18.96H15.3414C14.7497 18.96 14.2247 18.61 13.9914 18.06C13.7664 17.51 13.8914 16.885 14.308 16.4683L16.4664 14.31C16.883 13.8933 17.508 13.7683 18.058 13.9933C18.608 14.2183 18.958 14.7516 18.958 15.3433V17.5016C18.958 18.3016 18.2997 18.96 17.4997 18.96ZM17.4913 15.135C17.4497 15.135 17.3997 15.1516 17.3497 15.2016L15.1914 17.36C15.108 17.4433 15.1247 17.535 15.1497 17.585C15.1747 17.635 15.2247 17.71 15.3414 17.71H17.4997C17.6164 17.71 17.708 17.6183 17.708 17.5016V15.3433C17.708 15.2183 17.6247 15.1683 17.583 15.1516C17.558 15.1433 17.5247 15.135 17.4913 15.135Z"/>
+			</svg>
+			FAQ
+		</span>
+	</a>
+</div>
+
+              <div class="history__header" style="justify-content: center;">
+                <h1 class="history__title">Swap history</h1>
+              </div>
+              <div class="history__container">
+                <section class="history__section">
+                  <div class="history__section-header">
+                    <h2 class="history__section-title">Cancelled</h2>
+                    <a href="transfers-history-inner.html" class="show-all-btn">Show all</a>
+                  </div>
+                  <div class="history__items">
+                    <div class="history__item history__item_rejected">                      
+                      <div class="history__item-header">
+                        <span>09 Aug, 10:56</span>
+                        <span class="history__item-id">
+                          <span>Trx ID:1089wf6</span>
+                        </span>                        
+                      </div>
+                      <div class="history__item-content">
+                        <div class="token-cnt">
+                          <div class="token-cnt__icon">
+                            <picture><source srcset="img/tokens-logos/token.webp" type="image/webp"><img class="token-cnt__icon-token" src="img/tokens-logos/token.png" alt=""></picture>
+                            <picture><source srcset="img/tokens-logos/network.webp" type="image/webp"><img class="token-cnt__icon-network" src="img/tokens-logos/network.png" alt=""></picture>
+                          </div>
+                          <div class="token-cnt__info">
+                            <span class="token-cnt__value">
+                              5.0000 USDT
+                            </span>
+                            <div class="token-cnt__caption">
+                              <span>on Avalanche</span>
+                              <span>$5.63</span>
+                            </div>
+                          </div>
+                        </div>
+                        <img class="history__item-transfer-icon" src="./img/transfer-arrow_history.svg" width="20" height="8" alt="">
+                        <div class="token-cnt">
+                          <div class="token-cnt__icon">
+                            <picture><source srcset="img/tokens-logos/token.webp" type="image/webp"><img class="token-cnt__icon-token" src="img/tokens-logos/token.png" alt=""></picture>
+                            <picture><source srcset="img/tokens-logos/network.webp" type="image/webp"><img class="token-cnt__icon-network" src="img/tokens-logos/network.png" alt=""></picture>
+                          </div>
+                          <div class="token-cnt__info">
+                            <span class="token-cnt__value">
+                              5.0000 USDT
+                            </span>
+                            <div class="token-cnt__caption">
+                              <span>on Avalanche</span>
+                              <span>$5.63</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="history__label cancelled-label"></div>
+                    </div>                                       
+                  </div>
+                </section>
+                
+                <section class="history__section">
+                  <div class="history__section-header">
+                    <h2 class="history__section-title">Pending</h2>
+                    <a href="transfers-history-inner.html" class="show-all-btn">Show all</a>
+                  </div>
+                  <div class="history__items">                    
+                    <div class="history__item history__item_pending">                      
+                      <div class="history__item-header">
+                        <span>09 Aug, 10:56</span>
+                        <span class="history__item-id">
+                          <span>Trx ID:1089wf6</span>
+                        </span>                        
+                      </div>
+                      <div class="history__item-content">
+                        <div class="token-cnt">
+                          <div class="token-cnt__icon">
+                            <picture><source srcset="img/tokens-logos/token.webp" type="image/webp"><img class="token-cnt__icon-token" src="img/tokens-logos/token.png" alt=""></picture>
+                            <picture><source srcset="img/tokens-logos/network.webp" type="image/webp"><img class="token-cnt__icon-network" src="img/tokens-logos/network.png" alt=""></picture>
+                          </div>
+                          <div class="token-cnt__info">
+                            <span class="token-cnt__value">
+                              5.0000 USDT
+                            </span>
+                            <div class="token-cnt__caption">
+                              <span>on Avalanche</span>
+                              <span>$5.63</span>
+                            </div>
+                          </div>
+                        </div>
+                        <img class="history__item-transfer-icon" src="./img/transfer-arrow_history.svg" width="20" height="8" alt="">
+                        <div class="token-cnt">
+                          <div class="token-cnt__icon">
+                            <picture><source srcset="img/tokens-logos/token.webp" type="image/webp"><img class="token-cnt__icon-token" src="img/tokens-logos/token.png" alt=""></picture>
+                            <picture><source srcset="img/tokens-logos/network.webp" type="image/webp"><img class="token-cnt__icon-network" src="img/tokens-logos/network.png" alt=""></picture>
+                          </div>
+                          <div class="token-cnt__info">
+                            <span class="token-cnt__value">
+                              5.0000 USDT
+                            </span>
+                            <div class="token-cnt__caption">
+                              <span>on Avalanche</span>
+                              <span>$5.63</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="history__label pending-label"></div>
+                    </div>
+                    <div class="history__item history__item_pending">                      
+                      <div class="history__item-header">
+                        <span>09 Aug, 10:56</span>
+                        <span class="history__item-id">
+                          <span>Trx ID:1089wf6</span>
+                        </span>                        
+                      </div>
+                      <div class="history__item-content">
+                        <div class="token-cnt">
+                          <div class="token-cnt__icon">
+                            <picture><source srcset="img/tokens-logos/token.webp" type="image/webp"><img class="token-cnt__icon-token" src="img/tokens-logos/token.png" alt=""></picture>
+                            <picture><source srcset="img/tokens-logos/network.webp" type="image/webp"><img class="token-cnt__icon-network" src="img/tokens-logos/network.png" alt=""></picture>
+                          </div>
+                          <div class="token-cnt__info">
+                            <span class="token-cnt__value">
+                              5.0000 USDT
+                            </span>
+                            <div class="token-cnt__caption">
+                              <span>on Avalanche</span>
+                              <span>$5.63</span>
+                            </div>
+                          </div>
+                        </div>
+                        <img class="history__item-transfer-icon" src="./img/transfer-arrow_history.svg" width="20" height="8" alt="">
+                        <div class="token-cnt">
+                          <div class="token-cnt__icon">
+                            <picture><source srcset="img/tokens-logos/token.webp" type="image/webp"><img class="token-cnt__icon-token" src="img/tokens-logos/token.png" alt=""></picture>
+                            <picture><source srcset="img/tokens-logos/network.webp" type="image/webp"><img class="token-cnt__icon-network" src="img/tokens-logos/network.png" alt=""></picture>
+                          </div>
+                          <div class="token-cnt__info">
+                            <span class="token-cnt__value">
+                              5.0000 USDT
+                            </span>
+                            <div class="token-cnt__caption">
+                              <span>on Avalanche</span>
+                              <span>$5.63</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="history__label pending-label"></div>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="history__section">
+                  <div class="history__section-header">
+                    <h2 class="history__section-title">Completed</h2>
+                    <a href="transfers-history-inner.html" class="show-all-btn">Show all</a>
+                  </div>
+                  <div class="history__items">                    
+                    <div class="history__item history__item_completed">
+                      <div class="history__item-header">
+                        <span>09 Aug, 10:56</span>
+                        <span class="history__item-id">
+                          <span>Trx ID:1089wf6</span>
+                        </span>
+                      </div>
+                      <div class="history__item-content">
+                        <div class="token-cnt">
+                          <div class="token-cnt__icon">
+                            <picture><source srcset="img/tokens-logos/token.webp" type="image/webp"><img class="token-cnt__icon-token" src="img/tokens-logos/token.png" alt=""></picture>
+                            <picture><source srcset="img/tokens-logos/network.webp" type="image/webp"><img class="token-cnt__icon-network" src="img/tokens-logos/network.png" alt=""></picture>
+                          </div>
+                          <div class="token-cnt__info">
+                            <span class="token-cnt__value">
+                              5.0000 USDT
+                            </span>
+                            <div class="token-cnt__caption">
+                              <span>on Avalanche</span>
+                              <span>$5.63</span>
+                            </div>
+                          </div>
+                        </div>
+                        <img class="history__item-transfer-icon" src="./img/transfer-arrow_history.svg" width="20" height="8" alt="">
+                        <div class="token-cnt">
+                          <div class="token-cnt__icon">
+                            <picture><source srcset="img/tokens-logos/token.webp" type="image/webp"><img class="token-cnt__icon-token" src="img/tokens-logos/token.png" alt=""></picture>
+                            <picture><source srcset="img/tokens-logos/network.webp" type="image/webp"><img class="token-cnt__icon-network" src="img/tokens-logos/network.png" alt=""></picture>
+                          </div>
+                          <div class="token-cnt__info">
+                            <span class="token-cnt__value">
+                              5.0000 USDT
+                            </span>
+                            <div class="token-cnt__caption">
+                              <span>on Avalanche</span>
+                              <span>$5.63</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="history__label completed-label"></div>                      
+                    </div>
+                    <div class="history__item history__item_completed">
+                      <div class="history__item-header">
+                        <span>09 Aug, 10:56</span>
+                        <span class="history__item-id">
+                          <span>Trx ID:1089wf6</span>
+                        </span>
+                      </div>
+                      <div class="history__item-content">
+                        <div class="token-cnt">
+                          <div class="token-cnt__icon">
+                            <picture><source srcset="img/tokens-logos/token.webp" type="image/webp"><img class="token-cnt__icon-token" src="img/tokens-logos/token.png" alt=""></picture>
+                            <picture><source srcset="img/tokens-logos/network.webp" type="image/webp"><img class="token-cnt__icon-network" src="img/tokens-logos/network.png" alt=""></picture>
+                          </div>
+                          <div class="token-cnt__info">
+                            <span class="token-cnt__value">
+                              5.0000 USDT
+                            </span>
+                            <div class="token-cnt__caption">
+                              <span>on Avalanche</span>
+                              <span>$5.63</span>
+                            </div>
+                          </div>
+                        </div>
+                        <img class="history__item-transfer-icon" src="./img/transfer-arrow_history.svg" width="20" height="8" alt="">
+                        <div class="token-cnt">
+                          <div class="token-cnt__icon">
+                            <picture><source srcset="img/tokens-logos/token.webp" type="image/webp"><img class="token-cnt__icon-token" src="img/tokens-logos/token.png" alt=""></picture>
+                            <picture><source srcset="img/tokens-logos/network.webp" type="image/webp"><img class="token-cnt__icon-network" src="img/tokens-logos/network.png" alt=""></picture>
+                          </div>
+                          <div class="token-cnt__info">
+                            <span class="token-cnt__value">
+                              5.0000 USDT
+                            </span>
+                            <div class="token-cnt__caption">
+                              <span>on Avalanche</span>
+                              <span>$5.63</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="history__label completed-label"></div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+
+            <span class="transfers-container__subscription">Open beta: please use at your own risk.</span>
+          </div>          
+        </div>        
+      </section>    
+    </main>    
+    
+    
+    <footer class="footer @@className">
+	<div class="wrapper">
+		<div class="footer__container">
+			
+
+			<div class="footer__left">
+				<span class="footer__copyrights">© 2022 DeBridges. All rights reserved</span>
+				<span class="footer__socials">
+					<a class="footer__socials-item" href="">
+						<img src="img/telegram_footer-icon.svg" alt="">
+						Telegram
+					</a>
+					<a class="footer__socials-item" href="">
+						<img src="img/twitter_footer-icon.svg" alt="">
+						Twitter
+					</a>
+				</span>
+			</div>
+			<div class="footer__right">
+				<a class="footer__privacy-policy" href="">Privacy policy</a>
+				<span class="footer__email">Talk to us <a href="">bridger@mail.io</a></span>
+			</div>
+		</div>
+	</div>      
+</footer>   
+  </div>  
+
+  <script src="./js/app.min.js?_v=20230630194440"></script>
+</body>
+
+</html>

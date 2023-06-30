@@ -1,1 +1,0 @@
-# chainspot-bridges-view
